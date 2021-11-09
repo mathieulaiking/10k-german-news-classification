@@ -6,7 +6,7 @@ First, I have done some data exploration and visualization to better understand 
 This step is done in a Jupyter Notebook: [visualization.ipynb](./visualization.ipynb)
 
 ## Model training
-I first chose the [german BERT pretrained model by Deepset.ai](https://www.deepset.ai/german-bert) on HuggingFace hub and trained it on a subset of the training set (splitted as 90/10 with validation). I performed the fine-tuning on Colab using Google GPUs, you can find the details in the Jupyter Notebook: [training.ipynb](./training.ipynb). Then I pushed the fine-tuned model on the [Hugging Face Model Hub](https://huggingface.co/Mathking/bert-base-german-gnad10-cased).
+I first chose the [german BERT pretrained model by Deepset.ai](https://www.deepset.ai/german-bert) on HuggingFace hub and trained it on a subset of the training set (splitted as 90/10 with validation). I performed the fine-tuning on Colab using Google GPUs, you can find the details in the Jupyter Notebook: [training.ipynb](./training.ipynb). Then I pushed the fine-tuned model on the [Hugging Face Model Hub](https://huggingface.co/Mathking/bert-base-german-cased-gnad10).
 
 ## Model evaluation
 I performed the evaluation using accuracy, precision, recall and f1-score and plotted the classification results in a confusion matrix. The results of this step are done in the [evaluation.ipynb Jupyter notebook](./evaluation.ipynb).

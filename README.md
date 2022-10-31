@@ -1,4 +1,5 @@
 # 10kGNAD Classification
+Little project to learn to use HuggingFace tools
 In this repository I worked on a Text Classification task using the [Ten Thousand German News Articles Dataset](https://tblock.github.io/10kGNAD/).
 
 ## Dataset visualization
